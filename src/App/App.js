@@ -17,7 +17,7 @@ const App = kind({
 
 	render: props => (
 		<div {...props}>
-			<Panels>
+			<Panels noCloseButton>
 				<MainPanel />
 			</Panels>
 		</div>

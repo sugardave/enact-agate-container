@@ -1,5 +1,5 @@
 import Button from '@enact/agate/Button';
-import { Cell, Column, Row } from '@enact/ui/Layout';
+import { Cell, Row } from '@enact/ui/Layout';
 import Heading from '@enact/agate/Heading';
 import kind from '@enact/core/kind';
 import { Panel } from '@enact/agate/Panels';

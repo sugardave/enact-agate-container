@@ -915,24 +915,10 @@
     webpack "4.29.6"
     webpack-dev-server "3.2.1"
 
-"@enact/core@^3.0.0", "@enact/core@^3.1.0":
+"@enact/core@3.1.0", "@enact/core@^3.0.0", "@enact/core@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@enact/core/-/core-3.1.0.tgz#9b784f38f6b74f6dc3ed47f4d7f65d9e82d1dbe7"
   integrity sha512-ra8+NsAcBtpjl3HKmbFIq5c0Ad1ndr6VWTM17DtLZt7QKABwvPCUafjCsRFelUs4WEjJbiJecmi3Wk5uK5uyAw==
-  dependencies:
-    classnames "^2.2.5"
-    invariant "^2.2.2"
-    prop-types "^15.7.2"
-    ramda "^0.24.1"
-    react "^16.8.0"
-    react-dom "^16.8.0"
-    react-is "^16.8.3"
-    recompose "^0.26.0"
-
-"@enact/core@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@enact/core/-/core-3.0.1.tgz#633fdf579c80ebcb3b8e1affb1a327129b1ba3ff"
-  integrity sha512-QobK+wJLOCeVnBpcCSC/boNMfGUbCckqiH23pjIA1YrWceQ8JGdouzkLSS6TSoJyM+v/FHK6hX1/yBGEvv6cqA==
   dependencies:
     classnames "^2.2.5"
     invariant "^2.2.2"
@@ -969,7 +955,7 @@
     webpack-bundle-analyzer "^3.3.2"
     webpack-sources "^1.2.0"
 
-"@enact/i18n@^3.0.0":
+"@enact/i18n@3.1.0", "@enact/i18n@^3.0.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@enact/i18n/-/i18n-3.1.0.tgz#5965baa3a37d5c891883502a9e7fd68fd1b9b790"
   integrity sha512-v29+nKL6NDjaaoOcfs+jedewU+rWitMceo0M/D2w+golCQWtM4OUbHaxKI2+SlcNKEaLYup4vQC3JzL8iS4XNQ==
@@ -981,19 +967,7 @@
     react-dom "^16.8.0"
     xhr "^2.4.1"
 
-"@enact/i18n@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@enact/i18n/-/i18n-3.0.1.tgz#c26c0e542b1a017dc3b70cb7031c136260e3f200"
-  integrity sha512-7c0UdIEqW+/Wae823nq8hbntOYsx1G+Gq5f/FfmlXFfJ8LZI/JoU/Z+Isd+oeqNcj4qKJaH/xEZsWteYAf1+3Q==
-  dependencies:
-    "@enact/core" "^3.0.1"
-    prop-types "^15.7.2"
-    ramda "^0.24.1"
-    react "^16.8.0"
-    react-dom "^16.8.0"
-    xhr "^2.4.1"
-
-"@enact/spotlight@^3.0.0":
+"@enact/spotlight@3.1.0", "@enact/spotlight@^3.0.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@enact/spotlight/-/spotlight-3.1.0.tgz#ec29c01723b54d47c43f341b3f800cc6c5bcc909"
   integrity sha512-6/1v7kB0hIVPjTAIblRE83MfMklULjrM8Rm1BnttkAy4gl/HAk6BXmsek9Dc6t6MESxl4ec9kg965HGwghRarQ==
@@ -1005,45 +979,17 @@
     react-dom "^16.7.0"
     warning "^3.0.0"
 
-"@enact/spotlight@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@enact/spotlight/-/spotlight-3.0.1.tgz#2ad49a221e072003762ea569e9899343e932025f"
-  integrity sha512-6qZ0ZN2+2H9lQBTETx10JjpnyOYuKf3XtfDgBTUVufyetKPqqihCZj2LOXNlMT30wtgf6W7oDo53knTSRZowFw==
-  dependencies:
-    "@enact/core" "^3.0.1"
-    prop-types "^15.7.2"
-    ramda "^0.24.1"
-    react "^16.7.0"
-    react-dom "^16.7.0"
-    warning "^3.0.0"
-
 "@enact/template-moonstone@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@enact/template-moonstone/-/template-moonstone-3.0.0.tgz#f7864bc972cd5498f676f7c5ed5f7d4d39c255ea"
   integrity sha512-Vo+EvxOV5iIFa+2rzFNy+WKsZoNCN/krQVJukP9n+FBlEnpyOOpqXJ/2aFxTlG3OvEJIkEoC4n3SjcrMjtx2Xg==
 
-"@enact/ui@^3.0.0":
+"@enact/ui@3.1.0", "@enact/ui@^3.0.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@enact/ui/-/ui-3.1.0.tgz#4a88ad80505d003971912eefc8ea4593ac9243df"
   integrity sha512-zqF93Xd+jRA4IzTIf4ssyelGpfNCKhGmJuqcJgktwR9ElCsVgI4NaoGs5tcIZEnvQ4PACgDi22OVt8cKVQ0gEQ==
   dependencies:
     "@enact/core" "^3.1.0"
-    classnames "^2.2.5"
-    direction "^1.0.1"
-    invariant "^2.2.2"
-    prop-types "^15.7.2"
-    ramda "^0.24.1"
-    react "^16.8.0"
-    react-dom "^16.8.0"
-    recompose "^0.26.0"
-    warning "^3.0.0"
-
-"@enact/ui@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@enact/ui/-/ui-3.0.1.tgz#2727b8a15ba52f5c9298bee3a0e69114db931488"
-  integrity sha512-FaMGv24PFQTv6XqF3t6e6LbbpvbCgUzY6HHVYtZYsC+9Z0UefwDY82pYwaXaxbepxpVWqmwLlZNSI/Uimim43g==
-  dependencies:
-    "@enact/core" "^3.0.1"
     classnames "^2.2.5"
     direction "^1.0.1"
     invariant "^2.2.2"

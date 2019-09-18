@@ -27,7 +27,7 @@
 	},
 	"eslintIgnore": ["node_modules/*", "build/*", "dist/*"],
 	"dependencies": {
-		"@enact/agate": "enactjs/agate#develop",
+		"@enact/agate": "enactjs/agate",
 		"@enact/core": "^3.0.1",
 		"@enact/i18n": "^3.0.1",
 		"@enact/spotlight": "^3.0.1",
